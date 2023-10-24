@@ -10,7 +10,9 @@ onMounted(() => {
 <template>
           
   <div class="container-fluid p-0">
-    <h1 class="h3 mb-3">Models</h1>
+    <h1 class="h3 mb-3">Models
+      <button class="btn btn-primary float-end">Add Models <i data-feather="plus-square"></i></button>
+    </h1>
     <div class="card">
 
       <div class="card-body">
