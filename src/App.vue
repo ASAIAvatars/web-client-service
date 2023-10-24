@@ -1,5 +1,6 @@
 <script setup>
 import Sidebar from './components/Sidebar.vue';
+import Navbar  from './components/Navbar.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Sidebar from './components/Sidebar.vue';
     <Sidebar />
     
     <div class="main">
+      <Navbar />
       <main class="content">
         <router-view />
       </main>
