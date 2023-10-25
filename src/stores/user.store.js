@@ -16,6 +16,30 @@ export const useUsersStore = defineStore({
     }
   }),
   actions: {
+    async getUsers() {
+      
+    },
+
+    async getUser() {
+      
+    },
+    
+    async getUserAvatar() {
+      
+    },
+
+    async getUserAgents() {
+      
+    },
+
+    async getUserPlugins() {
+      
+    },
+
+    async getUserModels() {
+      
+    },
+
     async getSession() {
       console.log("Creating session...")
       const chatStore = useChatStore(); 

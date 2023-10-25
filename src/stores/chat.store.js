@@ -15,8 +15,17 @@ export const useChatStore = defineStore({
     ]
   }),
   actions: {
-    addMessage(message) {
-      this.messages = [...this.messages, message];
-    }
+    async loadHistory() {
+      
+    },
+
+    async connectWebSocket() {
+
+    },
+
+    async sendMessage(message) {
+      
+    }, 
+
   }
 })
